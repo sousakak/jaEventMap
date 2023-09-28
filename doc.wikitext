@@ -1,0 +1,98 @@
+{{Documentation subpage}}
+== {{#switch:{{int:lang}}|en|#default=Usage|ja=使用法}} ==
+=== {{#switch:{{int:lang}}|en|#default=Explanatory note key|ja=凡例}} ===
+<mapframe text="{{#switch:{{int:lang}}|en|#default=Map of offline events in Japan|ja=日本のオフラインイベントの地図}}" latitude="35" longitude="136" zoom="4" width="400" height="400" lang="ja">
+{"type": "FeatureCollection", "features": [
+  {  "type": "Feature",
+    "properties": 
+      { "marker-symbol": "museum",
+        "marker-color": "#0000FF",
+        "marker-size": "medium",
+        "title": "{{#switch:{{int:lang}}|en|#default=Events in GLAMs|GLAMでのイベント}}"
+      },
+    "geometry": 
+      { "type": "Point",
+        "coordinates": [132, 36]
+      }
+  },
+  {  "type": "Feature",
+    "properties": 
+      { "marker-symbol": "attraction",
+        "marker-color": "#0000FF",
+        "marker-size": "medium",
+        "title": "{{#switch:{{int:lang}}|en|#default=Events to take pictures|ja=写真撮影イベント}}"
+      },
+    "geometry": 
+      { "type": "Point",
+        "coordinates": [134, 36]
+      }
+  },
+  {  "type": "Feature",
+    "properties": 
+      { "marker-symbol": "hardware",
+        "marker-color": "#0000FF",
+        "marker-size": "medium",
+        "title": "{{#switch:{{int:lang}}|en|#default=Field work (mainly for edits)|ja=（編集向け）現地調査}}"
+      },
+    "geometry": 
+      { "type": "Point",
+        "coordinates": [136, 36]
+      }
+  },
+  {  "type": "Feature",
+    "properties": 
+      { "marker-symbol": "heart",
+        "marker-color": "#0000FF",
+        "marker-size": "medium",
+        "title": "{{#switch:{{int:lang}}|en|#default=Socializing events|ja=親睦会}}"
+      },
+    "geometry": 
+      { "type": "Point", 
+        "coordinates": [138, 36]
+      }
+  },
+  {  "type": "Feature",
+    "properties": 
+      { "marker-symbol": "home",
+        "marker-color": "#0000FF",
+        "marker-size": "medium",
+        "title": "{{#switch:{{int:lang}}|en|#default=Addresses of promoters|ja=組織の所在地}}"
+      },
+    "geometry": 
+      { "type": "Point",
+        "coordinates": [140, 36]
+      }
+  },
+  {  "type": "Feature",
+    "properties": 
+      { "marker-symbol": "home",
+        "marker-color": "#00C000",
+        "marker-size": "medium",
+        "title": "{{#switch:{{int:lang}}|en|#default=Addresses of promoters|ja=組織の所在地}}"
+      },
+    "geometry": 
+      { "type": "Point",
+        "coordinates": [140, 32]
+      }
+  },
+  {  "type": "Feature",
+    "properties": 
+      { "marker-symbol": "home",
+        "marker-color": "#FF0000",
+        "marker-size": "medium",
+        "title": "{{#switch:{{int:lang}}|en|#default=Addresses of promoters|ja=組織の所在地}}"
+      },
+    "geometry": 
+      { "type": "Point",
+        "coordinates": [140, 28]
+      }
+  },
+]}
+</mapframe>
+* <span style="color: #0000FF;">■</span> — {{#switch:{{int:lang}}|en|#default=solely held by Wikimedian|ja=ウィキメディアンの単独開催}}
+* <span style="color: #00C000;">■</span> — {{#switch:{{int:lang}}|en|#default=related to WMF|ja=WMFが関連したイベント}}
+* <span style="color: #FF0000;">■</span> — {{#switch:{{int:lang}}|en|#default=event hosted with external organization(s)|ja=他団体との合同イベント}}
+
+<includeonly>{{Sandbox other||
+[[Category:Japan]][[Category:The_Wikimedian_Society_of_Tokyo]][[Category:Wikimedia_Conference_Japan,_Tokyo,_2009]]
+}}</includeonly>
