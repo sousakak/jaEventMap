@@ -1,0 +1,1 @@
+<includeonly>{{#invoke:JapanEventMap|main}}</includeonly><noinclude>{{Documentation}}</noinclude>
